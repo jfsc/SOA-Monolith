@@ -1,0 +1,16 @@
+#Adicionando um pedido
+curl -H "Content-Type: application/json" -X POST -d '{"idPedido": 1,"idCliente": 1,"item" : {"idProduto":1,"quantidade":1}}' http://localhost:8081/pedidorest/item/adiciona
+
+#Consultado todos os pedidos
+curl http://localhost:8081/pedidorest/
+
+#Efetivando pedido (mudar o status para concluido
+curl -X PUT http://localhost:8081/pedidorest/pedido/1
+
+
+
+
+
+#JA TEMOS 5 CLIENTES CADASTRADOS
+#CADASTRANDO UM CLIENTE
+curl http://localhost:8081/clienterest/ -H "Content-Type: application/json" -X POST -d '{"id":6,"nome":"Cliente 6","email":"customer6@gmail.com"}'
