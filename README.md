@@ -21,12 +21,12 @@ This is an practical academic exercise to incentive the study of DevOps and Soft
 
 ### Teacher acceptance tests
 
-Step 1.a: The presentation of 2 repositories with the source code of microservices components;
-Step 1.b: The Technical Documentation based on Ref.:
-Step 2: The presentation of the verification at runtime;
-Step 3: The presentation of source code of Unit Tests;
-Step 4 & 5: Execution of pipeline until deployment;
-Step 6: Show kibana monitoring the recording of new **pedidos**
-Step 6: "simulate" a **PEDIDO service** (>2 instances) problem and the automated execution of the selfhealing; 
+* Step 1.a: The presentation of 2 repositories with the source code of microservices components;
+* Step 1.b: The Technical Documentation based on Ref.:
+* Step 2: The presentation of the verification at runtime;
+* Step 3: The presentation of source code of Unit Tests;
+* Step 4 & 5: Execution of pipeline until deployment;
+* Step 6: Show kibana monitoring the recording of new **pedidos**
+* Step 6: "simulate" a **PEDIDO service** (>2 instances) problem and the automated execution of the selfhealing; 
 
 
