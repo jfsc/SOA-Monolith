@@ -4,11 +4,11 @@
 This is an practical academic exercise to incentive the study of DevOps and Software Architecture.
 
 ### Objectives
--Understanding motivations to break a monolith
--Using a scientific approach to detail architectural changes
--Promoting the adoption of tests during development step
--Promoting the knowledge of Deployment Pipeline
--Sharing tactics to support deployability, availability and scalability
+* Understanding motivations to break a monolith
+* Using a scientific approach to detail architectural changes
+* Promoting the adoption of tests during development step
+* Promoting the knowledge of Deployment Pipeline
+* Sharing tactics to support deployability, availability and scalability
 
 ### Steps 
 1. Decompose SOA-Monolith (this repository) in **PEDIDO service** and **CLIENTE service**, and documenting the Architectural Design Decisions;
@@ -29,4 +29,10 @@ This is an practical academic exercise to incentive the study of DevOps and Soft
 * Step 6: Show kibana monitoring the recording of new **pedidos**
 * Step 6: "simulate" a **PEDIDO service** (>2 instances) problem and the automated execution of the selfhealing; 
 
+### Running SOA-Monolith
 
+```sh
+ $ mvn clean package
+ $ mvn spring-boot:run
+
+```
