@@ -1,7 +1,7 @@
 # SOA-Monolith
 ### Introduction 
 
-This is an practical academic exercise to incentive the study of DevOps and Software Architecture.
+This is a practical academic exercise to incentive the study of DevOps and Software Architecture.
 
 ### Objectives
 * Understanding motivations to break a monolith
