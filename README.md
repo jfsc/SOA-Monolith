@@ -11,9 +11,20 @@ This is an practical academic exercise to incentive the study of DevOps and Soft
 -Sharing tactics to support deployability, availability and scalability
 
 ### Steps 
-1. Decompose SOA-Monolith (this repository) in PEDIDO service and CLIENTE service, and documenting the Architectural Decisions
+1. Decompose SOA-Monolith (this repository) in PEDIDO service and CLIENTE service, and documenting the Architectural Design Decisions;
 2. Write the verification of **Cliente** during recording of a new **Pedido**;
-2. Write automated tests (Unit Tests);
-3. Pass tests trough pipeline (https://circleci.com/ or Jenkins);
-4. Deploy Services on Google Cloud or Amazon AWS;
-5. Replicate PEDIDO service (>2 instances) and support availability;
+3. Write automated tests (Unit Tests);
+4. Pass tests trough pipeline (https://circleci.com/ or Jenkins);
+5. Deploy Services on Google Cloud or Amazon AWS;
+6. Replicate PEDIDO service (>2 instances) and support availability of ecosystem;
+
+### Teacher acceptance tests
+
+Step 1.a: The presentation of 2 repositories with the source code of microservices components;
+Step 1.b: The Technical Documentation based on Ref.:
+Step 2: The presentation of the verification at runtime;
+Step 3: The presentation of source code of Unit Tests;
+Step 4 & 5: Execution of pipeline until deployment;
+Step 6: "simulate" a Pedido (>2 instances) and the ecosystem selfhealing; 
+
+
