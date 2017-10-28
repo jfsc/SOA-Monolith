@@ -12,7 +12,8 @@ This is an practical academic exercise to incentive the study of DevOps and Soft
 
 ### Steps 
 1. Decompose SOA-Monolith (this repository) in PEDIDO service and CLIENTE service, and documenting the Architectural Decisions
-2. Write automated tests (Unit Tests)
-3. Pass tests trough pipeline (https://circleci.com/ or Jenkins)
-4. Deploy Services on Google Cloud or Amazon AWS
-5. Replicate PEDIDO service (>2 instances) and support availability.
+2. Write the verification of **Cliente** during recording of a new **Pedido**;
+2. Write automated tests (Unit Tests);
+3. Pass tests trough pipeline (https://circleci.com/ or Jenkins);
+4. Deploy Services on Google Cloud or Amazon AWS;
+5. Replicate PEDIDO service (>2 instances) and support availability;
