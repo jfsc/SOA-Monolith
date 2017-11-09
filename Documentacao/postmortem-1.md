@@ -41,5 +41,4 @@ Início da Iteração | Término da iteração
 * A conversação dos serviços é muito semelhante a do MQTT!
 * IntelliJ IDEA é grátis para alunos do CIn!
 * SPRING INITIALIZR é duca!
-> **Nota:** Levante foi aprendido nesta iteração, seja de carácter individual e/ou coletivo.
 
