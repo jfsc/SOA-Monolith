@@ -25,9 +25,9 @@ Início da Iteração | Término da iteração
 ### O que não foi feito
 | Atividade | Atribuição | Porque |
 | --- | --- | --- |
-| Iniciar estudo de Spring-Boot | `@Todos` | Falta tempo |
-| Iniciar estudo de Microservices | `@Todos` | Falta tempo |
-| Iniciar estudo JUnit | `@Todos` | Falta tempo |
+| Iniciar estudo de Spring-Boot | `@Todos` | * |
+| Iniciar estudo de Microservices | `@Todos` | * |
+| Iniciar estudo JUnit | `@Todos` | * |
 | Conseguir rodar a solução | `@dibrito` | BUILD FAILURE  |
 
 ![alt text](https://github.com/dibrito/SOA-Monolith/blob/master/Documentacao/img/buildError.PNG?raw=true)
