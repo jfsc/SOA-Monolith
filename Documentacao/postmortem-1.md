@@ -28,7 +28,11 @@ Início da Iteração | Término da iteração
 | Iniciar estudo de Spring-Boot | `@Todos` | Falta tempo |
 | Iniciar estudo de Microservices | `@Todos` | Falta tempo |
 | Iniciar estudo JUnit | `@Todos` | Falta tempo |
-| Conseguir rodar a solução | `@dibrito` | Muito bug |
+| Conseguir rodar a solução | `@dibrito` | BUILD FAILURE  |
+
+![alt text](https://github.com/dibrito/SOA-Monolith/blob/master/Documentacao/img/buildError.PNG?raw=true)
+
+
 
 ### Planejado para próxima iteração
 | Atividade | Atribuição |
@@ -43,6 +47,7 @@ Início da Iteração | Término da iteração
 * Estudar microservices 
 * Fork no repo
 * Utilizar o Maven
+* Deveríamos ter tirado dúvidas sobre o build antes
 
 ### Sugestões
 Talvez aplicar o projeto de forma contínua ao longo da disciplina através dos HWs, pois está dando uma sensação de Big Bang Merge!
