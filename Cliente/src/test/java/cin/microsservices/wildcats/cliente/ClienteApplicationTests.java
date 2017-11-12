@@ -2,7 +2,11 @@ package cin.microsservices.wildcats.cliente;
 
 import static org.junit.Assert.assertThat;
 
+import java.awt.List;
+import java.util.ArrayList;
+
 import org.hamcrest.core.Is;
+import static org.hamcrest.CoreMatchers.is;
 import org.hamcrest.core.IsEqual;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +20,7 @@ import cin.microsservices.wildcats.cliente.domain.cliente.Cliente;
 public class ClienteApplicationTests {
 
 	@Test
-	public void testClient() {
+	public void testCriancaoClient() {
 		// Criando clientes
 		Cliente cliente1 = new Cliente();
 		cliente1.setId(1);
@@ -27,9 +31,8 @@ public class ClienteApplicationTests {
 		cliente2.setNome("Augusto Lima");
 		cliente2.setEmail("arl4@cin.ufpe.br");
 		
-		
-		
-		assertThat(cliente1.getId(),is(1));
+				
+		assertThat(cliente1.getId(), is(Long.valueOf(1)));
 		
 		
 	}
