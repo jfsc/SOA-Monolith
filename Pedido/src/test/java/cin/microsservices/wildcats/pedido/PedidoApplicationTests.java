@@ -1,5 +1,6 @@
 package cin.microsservices.wildcats.pedido;
 
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,18 +11,23 @@ import cin.microsservices.wildcats.pedido.domain.pedido.ItemPedido;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class PedidoApplicationTests {
-
-	@Test
-	public void testCriacaoDePedido() {
-		/**
-		 * Teste simples na criação de um ItemPedido
-		 * 12/11/2017
-		 */
+	private ItemPedido item1 = new ItemPedido();
+	
+	@Before
+	public void setUp() {
 		//Criação de item pedido
-		ItemPedido item1 = new ItemPedido();
+		
 		item1.setIdProduto(36);
 		item1.setQuantidade(65);
-		
+	}
+	
+	/**
+	 * Teste simples na criação de um ItemPedido
+	 * 12/11/2017
+	 */
+	@Test
+	public void testCriacaoDePedido() {
+		//=================VERIFICAÇÃO===============
 		
 	}
 
