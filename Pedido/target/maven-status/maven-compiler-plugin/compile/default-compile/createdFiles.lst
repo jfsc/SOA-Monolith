@@ -1,0 +1,8 @@
+cin/microsservices/wildcats/pedido/dto/pedido/ItemPedidoDTO.class
+cin/microsservices/wildcats/pedido/domain/pedido/StatusPedido.class
+cin/microsservices/wildcats/pedido/domain/pedido/Pedido.class
+cin/microsservices/wildcats/pedido/domain/pedido/ItemPedido.class
+cin/microsservices/wildcats/pedido/PedidoApplicationConfig$JerseyConfig.class
+cin/microsservices/wildcats/pedido/PedidoApplicationConfig.class
+cin/microsservices/wildcats/pedido/rest/PedidoRestService.class
+cin/microsservices/wildcats/pedido/PedidoApplication.class
