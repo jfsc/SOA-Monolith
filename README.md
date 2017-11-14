@@ -34,5 +34,4 @@ This is a practical academic exercise to incentive the study of DevOps and Softw
 ```sh
  $ mvn clean package
  $ mvn spring-boot:run
-
 ```
