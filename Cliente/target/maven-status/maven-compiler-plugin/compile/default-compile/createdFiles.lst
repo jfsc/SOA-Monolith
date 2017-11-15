@@ -1,0 +1,5 @@
+cin/microsservices/wildcats/cliente/ClienteApplicationConfig.class
+cin/microsservices/wildcats/cliente/ClienteApplicationConfig$JerseyConfig.class
+cin/microsservices/wildcats/cliente/domain/cliente/Cliente.class
+cin/microsservices/wildcats/cliente/ClienteApplication.class
+cin/microsservices/wildcats/cliente/rest/ClienteRestService.class

@@ -1,0 +1,7 @@
+/home/rfpj/GIT-REPOS/SOA-Monolith/Pedido/src/main/java/cin/microsservices/wildcats/pedido/rest/PedidoRestService.java
+/home/rfpj/GIT-REPOS/SOA-Monolith/Pedido/src/main/java/cin/microsservices/wildcats/pedido/PedidoApplication.java
+/home/rfpj/GIT-REPOS/SOA-Monolith/Pedido/src/main/java/cin/microsservices/wildcats/pedido/domain/pedido/StatusPedido.java
+/home/rfpj/GIT-REPOS/SOA-Monolith/Pedido/src/main/java/cin/microsservices/wildcats/pedido/PedidoApplicationConfig.java
+/home/rfpj/GIT-REPOS/SOA-Monolith/Pedido/src/main/java/cin/microsservices/wildcats/pedido/dto/pedido/ItemPedidoDTO.java
+/home/rfpj/GIT-REPOS/SOA-Monolith/Pedido/src/main/java/cin/microsservices/wildcats/pedido/domain/pedido/Pedido.java
+/home/rfpj/GIT-REPOS/SOA-Monolith/Pedido/src/main/java/cin/microsservices/wildcats/pedido/domain/pedido/ItemPedido.java
