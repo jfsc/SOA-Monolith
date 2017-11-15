@@ -1,5 +1,6 @@
 package cin.microsservices.wildcats.cliente;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 import java.awt.List;
@@ -47,7 +48,7 @@ public class ClienteApplicationTests {
 		assertThat(cliente1.getId(), is(Long.valueOf(1)));
 		assertThat(cliente1.getEmail(), is("chnm@cin.ufpe.br"));
 		assertThat(cliente1.getNome(), is("Carlos Melo"));
-		
+		assertEquals(Cliente.class, cliente1.getClass());
 		
 	}
 
